@@ -1,0 +1,38 @@
+PODS:
+  - AVOSCloud (11.4.4)
+  - IQKeyboardManager (6.2.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - ReactiveObjC (3.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - ReactiveObjC
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AVOSCloud
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - ReactiveObjC
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AVOSCloud: c3d6ce6d387d7e40c7c0fe4087c6ad5192620f47
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 094ece4d9469f0e9024ca5b189bd17192679189a
+
+COCOAPODS: 1.5.3

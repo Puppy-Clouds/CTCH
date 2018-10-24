@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SRRecordCell" rowHeight="103" id="KGk-i7-Jjw" customClass="SRRecordCell">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="362" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数量：30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNr-4A-qY9">
+                        <rect key="frame" x="16" y="11" width="61" height="40.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提币地址：---------" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3G-In-KGc">
+                        <rect key="frame" x="16" y="51.5" width="330" height="40.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间：2018-10-10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhX-Lz-gfu">
+                        <rect key="frame" x="228" y="11" width="118" height="40.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.14117647059999999" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="hhX-Lz-gfu" secondAttribute="trailing" id="AoY-Nw-kaZ"/>
+                    <constraint firstItem="l3G-In-KGc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="KGl-qL-t2w"/>
+                    <constraint firstItem="l3G-In-KGc" firstAttribute="top" secondItem="LNr-4A-qY9" secondAttribute="bottom" id="QXD-2U-qKn"/>
+                    <constraint firstItem="LNr-4A-qY9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="W0D-5f-YQm"/>
+                    <constraint firstItem="hhX-Lz-gfu" firstAttribute="centerY" secondItem="LNr-4A-qY9" secondAttribute="centerY" id="XwC-xb-NUe"/>
+                    <constraint firstItem="hhX-Lz-gfu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="LNr-4A-qY9" secondAttribute="trailing" constant="10" id="iPe-RK-6G9"/>
+                    <constraint firstItem="hhX-Lz-gfu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="nVg-jc-F4I"/>
+                    <constraint firstItem="l3G-In-KGc" firstAttribute="height" secondItem="LNr-4A-qY9" secondAttribute="height" id="pdp-lb-93Z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="l3G-In-KGc" secondAttribute="trailing" id="qvN-er-yEf"/>
+                    <constraint firstItem="LNr-4A-qY9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="umP-VS-hfP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="l3G-In-KGc" secondAttribute="bottom" id="yYm-gS-eLn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="addresslb" destination="l3G-In-KGc" id="TSV-8m-MQk"/>
+                <outlet property="datelb" destination="hhX-Lz-gfu" id="9Lk-sS-CWI"/>
+                <outlet property="numlb" destination="LNr-4A-qY9" id="oex-TY-jEs"/>
+            </connections>
+            <point key="canvasLocation" x="171.19999999999999" y="173.16341829085459"/>
+        </tableViewCell>
+    </objects>
+</document>

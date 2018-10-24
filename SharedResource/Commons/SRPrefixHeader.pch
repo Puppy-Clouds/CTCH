@@ -1,0 +1,24 @@
+//
+//  SRPrefixHeader.pch
+//  SharedResource
+//
+//  Created by SHANG TOM on 2018/10/16.
+//  Copyright © 2018年 SHANG TOM. All rights reserved.
+//
+
+#ifndef SRPrefixHeader_pch
+#define SRPrefixHeader_pch
+
+#import "SRHeader.h"
+#import "SRMacro.h"
+#import "UIToastView.h"
+#import "HexColors.h"
+#import "MessageTextView.h"
+#import <MJExtension.h>
+#import "SRBaseViewController.h"
+#import "SRBaseTableView.h"
+#import "SRVerifyModel.h"
+//#import "SRUserM.h"
+#import <AVOSCloud/AVOSCloud.h>
+
+#endif /* SRPrefixHeader_pch */
